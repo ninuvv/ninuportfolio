@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import "./about.css";
 import Profile from "../../assets/img/profile/profile.webp";
 import Image from "react-bootstrap/Image";
-import Button from "react-bootstrap/Button";
+
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded">
+              <Row className="text-white align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Ninu V.V</strong>
                 <br />A passionate programmer born and broughdt up in India. I am a Full Stack Web Developer with React.js, Express.js, Node.js, Vb.net and SQL Server as my tech stack.
                 <br />

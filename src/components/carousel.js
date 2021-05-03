@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import slide1 from "../assets/img/carousal/slide1.webp";
 import slide2 from "../assets/img/carousal/slide2.webp";
 import slide3 from "../assets/img/carousal/slide3.webp";
+// import Myscrolldown from "./scrolldown";
 import '../../src/App.css' 
 
 const myCarousel = () => {
@@ -19,6 +20,7 @@ const myCarousel = () => {
           <img className="d-block w-100 custom-img" src={slide3} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
+      {/* <Myscrolldown/> */}
     </div>
   );
 };

@@ -1,15 +1,18 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from 'react-bootstrap/Nav'
-import logo from '../../src/logo.png'
+import logo from '../../src/logo1.png'
 import '../../src/App.css'
 import {NavLink}  from "react-router-dom"
 
 const navbar = () => {
   return (
     <>
-      <Navbar fixed='top' collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">
+
+
+      <Navbar fixed='top' collapseOnSelect expand="md" bg="dark" variant="dark"  className="animate-navbar nav-theme justify-content-between">
+         {/* <Navbar.Brand href="#home">Ninu V.V</Navbar.Brand> */}
+        <Navbar.Brand href="/">
           <img className="logo" src={logo} alt=""/> 
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

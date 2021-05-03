@@ -1,4 +1,7 @@
 .about {
+  position: absolute;
+  width: 100%;
+  top: 5rem;
     background-color: transparent;
     font-size: 1.1em;
   }
@@ -7,7 +10,7 @@
     max-width: 18em;
   }
   
-  .my-details {
+  /* .my-details {
     background-color: rgba(255, 255, 255, 0.747);
-  }
+  } */
   
