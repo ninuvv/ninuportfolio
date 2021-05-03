@@ -34,7 +34,7 @@ const App = () => {
                  />
       
         {/* <Route path="/"  exact component={Mycarousel} /> */}
-        <Route path="/" exact component={Mytitlemsg} activeClassName="active"/>
+        <Route path="/" exact component={Mytitlemsg} />
         {/* <Route path="/" exact component={Myscrolldown} /> */}
         <Route path="/about" component={MyAbout} />
         <Route path="/skills" component={Skills} />

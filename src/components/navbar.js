@@ -19,7 +19,7 @@ const navbar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
           
-            <NavLink exact to="/" className="main-nav" activeClassName="main-nav-active">Home</NavLink>
+            <NavLink exact to="/" className="main-nav"  activeClassName="active main-nav-active">Home</NavLink>
             <NavLink exact to="/about" className="main-nav" activeClassName="main-nav-active">About Me</NavLink>
             <NavLink exact to="/skills" className="main-nav" activeClassName="main-nav-active">Skills</NavLink>
             <NavLink exact to="/experience" className="main-nav" activeClassName="main-nav-active">Experience</NavLink>
