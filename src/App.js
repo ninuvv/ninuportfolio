@@ -32,7 +32,7 @@ const App = () => {
                 }}
                 height="100vh"
                  />
-       
+        <Mytitlemsg/>
         {/* <Route path="/"  exact component={Mycarousel} /> */}
         <Route path="/" exact component={Mytitlemsg} />
         {/* <Route path="/" exact component={Myscrolldown} /> */}
