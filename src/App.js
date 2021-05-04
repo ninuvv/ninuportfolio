@@ -20,7 +20,7 @@ const App = () => {
   return (
     <>
      
-        <Router  basename='/'>
+        <HashRouter  basename='/'>
           <Navbar />
           <Particles
             // params={{
@@ -39,7 +39,7 @@ const App = () => {
           <Route path="/experience" component={Timeline} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
-        </Router>
+        </HashRouter>
   
       <Myfooter />
     </>
