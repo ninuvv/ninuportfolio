@@ -11,8 +11,7 @@ import Skills from "./pages/skills/Skills";
 import Timeline from "./pages/experiences/Timeline";
 import Projects from "./pages/projects/projects";
 
-import { Route } from "react-router-dom";
-import { HashRouter as Router } from "react-router-dom";
+import { HashRouter as Router,Route } from "react-router-dom";
 import Contact from "./pages/contact/contact";
 import Particles from "react-particles-js";
 
@@ -20,7 +19,7 @@ const App = () => {
   return (
     <>
      
-        <HashRouter  basename='/'>
+        <Router  basename='/'>
           <Navbar />
           <Particles
             // params={{
@@ -39,7 +38,7 @@ const App = () => {
           <Route path="/experience" component={Timeline} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
-        </HashRouter>
+        </Router>
   
       <Myfooter />
     </>
