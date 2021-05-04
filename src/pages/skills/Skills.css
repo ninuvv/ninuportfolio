@@ -20,6 +20,11 @@
     width: 3em;
   }
   
+  .CardDeck{
+margin: 20px;
+  }
+  
+
   .font-details {
     font-size: 3em;
     font-weight: 500;

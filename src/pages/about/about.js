@@ -23,13 +23,7 @@ const About = () => {
               <Row className="text-white align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Ninu V.V</strong>
                 <br />A passionate programmer born and broughdt up in India. I am a Full Stack Web Developer with React.js, Express.js, Node.js, Vb.net and SQL Server as my tech stack.
-                <br />
-                In 2007, I successfully completed my Engineering with specialization in 'Computer Science'.
-                <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
-                {/* <br />
-                Along with that, I also help people as a COACH on their journey of becoming a professional programmer.  */}
-                <br />I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                 I have 5years experience in windows based proramming. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                 <br /> <br />
                 {/* <Col className="d-flex justify-content-center flex-wrap">
                   <div>
