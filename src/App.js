@@ -19,8 +19,8 @@ import Particles from "react-particles-js";
 const App = () => {
   return (
     <>
-      <HashRouter basename="/">
-        <Router>
+     
+        <Router  basename='/'>
           <Navbar />
           <Particles
             // params={{
@@ -40,7 +40,7 @@ const App = () => {
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
         </Router>
-      </HashRouter>
+  
       <Myfooter />
     </>
   );
