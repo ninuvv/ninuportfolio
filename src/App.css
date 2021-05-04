@@ -60,12 +60,9 @@ a:hover{
   font-size: 1.5em;
   border: 2px solid #101018f8;
   border-top-left-radius: 3px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 
-  /* position: fixed;
+  position: fixed;
   left: 0;
    bottom: 0;
-  width: 100%; */
+  width: 100%;
 }

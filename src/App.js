@@ -21,11 +21,8 @@ const App = () => {
       <Router basename="/">
         <Navbar />
         <Particles height="100vh" />
-
         <Route path="/" exact component={Mytitlemsg} />                 
-        <Route path="/about" component={MyAbout} />           
-
-      
+        <Route path="/about" component={MyAbout} />      
         <Route path="/skills" component={Skills} />
         <Route path="/experience" component={Timeline} />
         <Route path="/projects" component={Projects} />

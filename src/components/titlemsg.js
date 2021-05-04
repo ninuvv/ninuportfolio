@@ -2,6 +2,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
 
+
 const MyTitleMessage = styled.h1`
   position: absolute;
   width: 100%;
@@ -55,6 +56,7 @@ const titlemsg = () => {
           </div>
         </div>
       </div>
+
     </MyTitleMessage>
   );
 };

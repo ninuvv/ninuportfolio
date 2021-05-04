@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import "./about.css";
 import Profile from "../../assets/img/profile/profile.webp";
 import Image from "react-bootstrap/Image";
-
+// import Button from 'react-bootstrap/Button'
 
 const About = () => {
   return (
@@ -25,6 +25,7 @@ const About = () => {
                 <br />A passionate programmer born and broughdt up in India. I am a Full Stack Web Developer with React.js, Express.js, Node.js, Vb.net and SQL Server as my tech stack.
                  I have 5years experience in windows based proramming. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                 <br /> <br />
+              
                 {/* <Col className="d-flex justify-content-center flex-wrap">
                   <div>
                     <a href="#contact">
@@ -33,13 +34,7 @@ const About = () => {
                       </Button>
                     </a>
                   </div>
-                  <div>
-                    <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        My Resume
-                      </Button>
-                    </a>
-                  </div>
+                
                   <div>
                     <a href="https://github.com/akjha96" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-dark">

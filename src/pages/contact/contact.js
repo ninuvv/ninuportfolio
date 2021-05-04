@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <section className="contact-container" name="contact" id="contact">
       <div className="profile-image"></div>
-      <h1 className="text-center font-details-b text-white">Contact</h1>
+      <h1 className="text-center  text-white">CONTACT ME</h1>
 
       <div className="cards-container">
         {/* Card 1 - Email */}
