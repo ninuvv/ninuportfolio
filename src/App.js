@@ -23,13 +23,13 @@ const App = () => {
       <Router>
         <Navbar/>
         <Particles 
-                params={{
-                    "particles": {
-                        "number":{"value":100},
-                        "size":{"value":3}
+                // params={{
+                //     "particles": {
+                //         "number":{"value":100},
+                //         "size":{"value":3}
                  
-                    }
-                }}
+                //     }
+                // }}
                 height="100vh"
                  />
       

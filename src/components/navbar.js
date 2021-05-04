@@ -5,10 +5,10 @@ import logo from '../../src/logo1.png'
 import '../../src/App.css'
 import {NavLink}  from "react-router-dom"
 
-const navbar = () => {
+
+const navbar = (props) => {
   return (
     <>
-
 
       <Navbar fixed='top' collapseOnSelect expand="md" bg="dark" variant="dark"  className="animate-navbar nav-theme justify-content-between">
          {/* <Navbar.Brand href="#home">Ninu V.V</Navbar.Brand> */}
@@ -17,7 +17,7 @@ const navbar = () => {
           </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+          <Nav  className="ml-auto">
           
             <NavLink exact to="/" className="main-nav"  activeClassName="active main-nav-active">Home</NavLink>
             <NavLink exact to="/about" className="main-nav" activeClassName="main-nav-active">About Me</NavLink>
