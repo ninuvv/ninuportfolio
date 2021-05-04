@@ -1,4 +1,4 @@
-body {
+.body {
   background: black;
   /* font-family: "Montserrat", sans-serif; */
   font-size: 16px;
@@ -14,23 +14,6 @@ body {
   height: 63px;  
 }
 
-.content{
-  margin-top: 50px;
-}
-
-/* .animate-navbar {
-  box-shadow: 1px 1px 1px #222;
-  animation: moveDown 0.5s ease-in-out;
-} */
-
-/* @keyframes moveDown {
-  from {
-    transform: translateY(-5rem);
-  }
-  to {
-    transform: translateY(0rem);
-  }
-} */
 
 
 .custom-img {
@@ -38,7 +21,12 @@ body {
   object-fit: cover;
 }
 
-
+.container-box {
+  width: 80%;
+  background-color: transparent;
+  position: relative;
+  z-index: 9;
+}
 
  a{
   margin-left: 1rem !important;

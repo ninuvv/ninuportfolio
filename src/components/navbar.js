@@ -3,14 +3,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import logo from "../../src/logo1.png";
 import "../../src/App.css";
-import { HashRouter, NavLink } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 
-const navbar = (props) => {
+const navbar = () => {
   return (
 
-        <>
-
- 
+        <> 
           <Navbar fixed='top' expand="lg" bg="dark" variant="dark" collapseOnSelect  >
              {/* <Navbar.Brand href="#home">Ninu V.V</Navbar.Brand> */}
             <Navbar.Brand href="/">
