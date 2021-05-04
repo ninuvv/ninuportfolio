@@ -10,7 +10,7 @@ const navbar = (props) => {
   return (
     <>
 
-      <Navbar fixed='top' collapseOnSelect expand="md" bg="dark" variant="dark"  className="animate-navbar nav-theme justify-content-between">
+      <Navbar fixed='top' expand="lg" bg="dark" variant="dark" collapseOnSelect  >
          {/* <Navbar.Brand href="#home">Ninu V.V</Navbar.Brand> */}
         <Navbar.Brand href="/">
           <img className="logo" src={logo} alt=""/> 

@@ -5,16 +5,18 @@ body {
   /* color: rgb(53, 53, 53); */
 }
  
-
+/* 
 .navbar-brand{
+  height: 63px;  
+} */
+
+.logo{
   height: 63px;  
 }
 
-.logo{
-  height: inherit;  
+.content{
+  margin-top: 50px;
 }
-
-
 
 /* .animate-navbar {
   box-shadow: 1px 1px 1px #222;
