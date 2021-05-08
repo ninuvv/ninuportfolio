@@ -32,7 +32,7 @@ const Portfolio = () => {
          
           <div className="project-links">
             <div className="text">
-              <h3>Classroom Mangement</h3>
+              <h3 className="text-white">Classroom Mangement</h3>
             </div>
             <div className="icons">
               <a
@@ -74,7 +74,7 @@ const Portfolio = () => {
 
           <div className="project-links">
             <div className="text">
-              <h3>e-commerce</h3>
+              <h3  className="text-white">e-commerce</h3>
             </div>
             <div className="icons">
               <a

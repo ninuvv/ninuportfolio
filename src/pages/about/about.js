@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import "./about.css";
 import Profile from "../../assets/img/profile/profile.webp";
 import Image from "react-bootstrap/Image";
-// import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button'
 
 const About = () => {
   return (
@@ -23,33 +23,34 @@ const About = () => {
               <Row className="text-white align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Ninu V.V</strong>
                 <br />A passionate programmer born and broughdt up in India. I am a Full Stack Web Developer with React.js, Express.js, Node.js, Vb.net and SQL Server as my tech stack.
-                 I have 5years experience in windows based proramming. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
+                 I have 4+ years experience in windows based proramming. I love learning about new technologies, what problems are they solving and How can I use them to build better and scalable products.
                 <br /> <br />
               
-                {/* <Col className="d-flex justify-content-center flex-wrap">
-                  <div>
+                <Col className="d-flex justify-content-center flex-wrap">
+                  {/* <div>
                     <a href="#contact">
                       <Button className="m-2" variant="outline-primary">
                         Let's talk
                       </Button>
                     </a>
-                  </div>
+                  </div> */}
                 
                   <div>
-                    <a href="https://github.com/akjha96" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
-                        GitHub
+                    <a href="https://drive.google.com/file/d/1SYX1t3lI0nYNo_H4J-cX3Nnb5IlYEqSO/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  
+                      <Button className="m-2" variant="dark">
+                       RESUME
                       </Button>
                     </a>
                   </div>
-                  <div>
+                  {/* <div>
                     <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
                       <Button className="m-2" variant="outline-info">
                         LinkedIn
                       </Button>
                     </a>
-                  </div>
-                </Col> */}
+                  </div> */}
+                </Col>
               </Row>
             </Col>
           </Row>

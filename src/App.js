@@ -1,8 +1,8 @@
-import "./App.css";
+// import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
-import Navbar from "./components/navbar";
-import Myfooter from "./components/footer";
+import Navbar from "./components/navbar/navbar";
+import Myfooter from "./components/footer/footer";
 // import Mycarousel from "./components/carousel";
 import Mytitlemsg from "./components/titlemsg";
 
@@ -17,21 +17,23 @@ import Particles from "react-particles-js";
 
 const App = () => {
   return (
-    <>
+    <div>
+       <Navbar />
+          
+
       <Router basename="/">
-        <Navbar />
+    
         <Particles height="100vh" />
-        <Route path="/" exact component={Mytitlemsg} />                 
-        <Route path="/about" component={MyAbout} />      
+        <Route path="/" exact component={Mytitlemsg} />
+        <Route path="/about" component={MyAbout} />
         <Route path="/skills" component={Skills} />
         <Route path="/experience" component={Timeline} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
-
-      <Myfooter />
+         
       </Router>
-
-    </>
+     <Myfooter />
+    </div>
   );
 };
 

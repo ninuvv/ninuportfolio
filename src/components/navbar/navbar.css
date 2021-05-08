@@ -1,0 +1,45 @@
+
+.logo{
+    height: 63px;  
+  }
+  
+  Nav{
+    z-index: 1;
+  }
+  
+  
+  .custom-img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .container-box {
+    width: 80%;
+    background-color: transparent;
+    position: relative;
+    z-index: 9;
+  }
+  
+   a{
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+    color:white !important;
+    margin: 5px;
+    text-decoration: none;
+    /* border-top:0.18rem solid white!important; */
+  }
+  
+  a.main-nav-active{
+    /* color:orange !important; */
+    text-decoration: none !important;
+    border-bottom:0.18rem solid white !important
+  }
+  /* a.active:focus{
+    border-top:0.18rem solid white !important
+  }*/
+  a:hover{
+      color:rgb(136, 135, 132) !important;
+    text-decoration: none !important; 
+     border-bottom:0.18rem solid white !important
+  } 
+  
